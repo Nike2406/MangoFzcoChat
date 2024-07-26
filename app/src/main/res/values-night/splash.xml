@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MangoFzcoChat.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img_your_apps_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.MangoFzcoChat</item>
+    </style>
+</resources>
