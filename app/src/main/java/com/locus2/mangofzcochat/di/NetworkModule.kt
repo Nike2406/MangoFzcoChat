@@ -1,7 +1,7 @@
 package com.locus2.mangofzcochat.di
 
 import com.google.gson.Gson
-import com.locus2.mangofzcochat.data.remote.client.AuthorizationApi
+import com.locus2.mangofzcochat.data.remote.client.UsersApi
 import com.locus2.mangofzcochat.data.remote.client.LoggingInterceptor
 import dagger.Module
 import dagger.Provides
@@ -26,8 +26,8 @@ class NetworkModule {
     @Provides
     fun provideChargersApis(
         retrofit: Retrofit,
-    ): AuthorizationApi {
-        return retrofit.create(AuthorizationApi::class.java)
+    ): UsersApi {
+        return retrofit.create(UsersApi::class.java)
     }
 
     @Provides
